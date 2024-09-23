@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
                 </div>
                 <div class="nav-links">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#" id="pg-atual">Home</a></li>
                         <li><a href="#">Sobre</a></li>
                         <li><a href="#">Atividades</a></li>
                         <li><a href="#">Feedbacks</a></li>
@@ -32,18 +33,22 @@
         </nav>
 
         <div class="header-container">
-            <div class="div-header-texto">
+            <div class="div-header-texto" data-aos="fade-right" data-aos-delay="400" data-aos-duration="600">
                 <div class="texto">
                     <h1>Feeling better starts with</h1>
                     <h1><span>MOVING BETTER</span></h1>
                 </div>
                 <div class="div-header-saiba-mais">
-                    <button><a href="#">Vamos começar as atividades?</a></button>
+                    <button><a href="#">Pronto para começar as atividades?</a></button>
                 </div>
             </div>
         </div>
     </header>
     
+    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
