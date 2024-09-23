@@ -28,22 +28,6 @@ span{
     color: #f77200;
 }
 
-#pg-atual {
-    position: relative;
-    width: 70%;
-}
-
-#pg-atual::after {
-    content: "";
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: black;
-    border-radius: 20px;
-}
-
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -100,7 +84,7 @@ span{
     height: 180px;
     position: absolute;
     bottom: 50px;
-    right: 0px;
+    right: 0;
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -127,6 +111,7 @@ span{
     display: flex;
     align-items: center;
     margin: 1rem;
+    height: 600px;
 }
 
 .container-sobre p{
@@ -170,4 +155,54 @@ span{
 
 .txt{
     display: flex;
+}
+
+.container-funcionalidades h1{
+    text-align: center;
+}
+
+.container-funcionalidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    height: 500px;
+}
+
+#titulo-maior{
+    font-size: 40px;
+}
+
+.func-um{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    margin: 2rem 6rem;  
+}
+
+.func-um-icone{
+    background-color: #ffc523;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.func-um-texto{
+    padding: 20px;
+    text-align: justify;
+}
+
+.func-um-texto-titulo{
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.func-um-icone img{
+    width: 30px;
 }
