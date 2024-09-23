@@ -20,6 +20,8 @@ header{
     width: 100%;
     height: 780px;
     position: relative;
+    box-shadow: 0 3px 30px #e5c6b1;
+
 }
 
 span{
@@ -119,4 +121,53 @@ span{
     border: none;
     background-color: #000;
     border-radius: 10px;
+}
+
+.container-sobre{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.container-sobre p{
+    font-family: 'Poppins';
+}
+
+.imagem-sobre img{
+    width: 650px;
+}
+
+.geral-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-titulo{
+    margin: 40px;
+    position: relative;
+}
+
+.texto-titulo::after{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background-color: #ffc523;
+    border-radius: 20px;
+}
+
+.texto-sobre{
+    width: 300px;
+    margin-left: 60px;
+}
+
+.texto-meta{
+    width: 300px;
+    margin-left: 60px;
+}
+
+.txt{
+    display: flex;
 }
