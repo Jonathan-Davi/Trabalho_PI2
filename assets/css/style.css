@@ -65,7 +65,7 @@ span{
 }
 
 .nav-conta img{
-    width: 25px;
+    width: 20px;
 }
 
 .div-nav-icone{
@@ -73,8 +73,8 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
@@ -215,4 +215,64 @@ span{
 
 .func-icone img{
     width: 30px;
+}
+
+.container-atividades{
+    background-color: #fedc81;
+    margin-top: 4rem;
+    height: 650px;
+    box-shadow: -1px -20px 32px 0px rgba(0,0,0,0.22);
+    box-shadow: -1px 7px 32px 0px rgba(0,0,0,0.28);
+}
+
+.atividades-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.atividades-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.atividades-card{
+    background-color: #f2f2f2;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.22);
+}
+
+.atividades-card h2{
+    padding-bottom: 1rem;
+}
+
+.atividades-card img{
+    width: 350px;
+    border-radius: 20px;
+}
+
+.atividades-card button{
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    border: none;
+    background-color: #000;
+    color: #f2f2f2;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.atividades-card a{
+    color: #f2f2f2;
+    text-decoration: none;
 }
