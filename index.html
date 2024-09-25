@@ -11,6 +11,8 @@
 
 <body>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <header id="home">
         <nav>
             <div class="nav-container">
@@ -68,10 +70,6 @@
         </div>
 
         <div class="container-funcionalidades">
-            <div class="funcionalidades-titulo" data-aos="fade-left" data-aos-delay="150" data-aos-duration="600">
-                <h1 id="titulo-maior">Conheça nossas</h1>
-                <h1><span>funcionalidades</span></h1>
-            </div>
             <div class="func-cards">
                 <div class="func" data-aos="fade-right" data-aos-delay="150" data-aos-duration="600">
                     <div class="func-icone">
@@ -116,35 +114,50 @@
         </div>
 
         <div class="container-atividades" id="atividades">
-            <div class="atividades-titulo" data-aos="fade-left" data-aos-delay="150" data-aos-duration="600">
-                <h2>Qual a <span>meta</span> de hoje?</h2>
-                <h2>registre suas atividades!</h2>
+            <div class="atividades-esquerda" data-aos="fade-left" data-aos-delay="150" data-aos-duration="600">
+                <div class="atividades-esquerda-texto">
+                    <p id="txt-maior"><span>Você é capaz de alcançar suas metas!</span></p>
+                    <p>Cada passo que você dá te aproxima do seu objetivo. Mantenha o foco, celebre as pequenas conquistas e nunca desista. Lembre-se: é o esforço diário que constrói o sucesso. Acredite em si mesmo e siga em frente – você pode chegar lá!</p>
+                </div>
+                <div class="btn-esquerda">
+                    <button><a href="#">Registrar Atividade!</a></button>
+                </div>
             </div>
-            <div class="atividades-cards">
-                <div class="atividades-card" data-aos="fade-left" data-aos-delay="150" data-aos-duration="600">
-                    <h2><span>Corrida</span></h2>
-                    <img src="assets/images/imagem-corrida-de-rua.jpg" alt="Imagem Corrida">
-                    <button><a href="#">Registrar Atividade!</a></button>
+            <div class="container-slider" data-aos="fade-left" data-aos-delay="250" data-aos-duration="600">
+                <div class="slides">
+                    <input type="radio" name="radiobtn" id="radio1">
+                    <input type="radio" name="radiobtn" id="radio2">
+                    <input type="radio" name="radiobtn" id="radio3">
+
+                    <div class="slide first">
+                        <img src="assets/images/imagem-corrida-de-rua.jpg" alt="Imagem Corrida">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/imagem-ciclismo.jpg" alt="Imagem Ciclismo">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/imagem-academia.jpg" alt="Imagem Academia">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
                 </div>
-                <div class="atividades-card" data-aos="fade-left" data-aos-delay="250" data-aos-duration="600">
-                    <h2><span>Ciclismo</span></h2>
-                    <img src="assets/images/imagem-ciclismo.jpg" alt="Imagem Ciclismo">
-                    <button><a href="#">Registrar Atividade!</a></button>
-                </div>
-                <div class="atividades-card" data-aos="fade-left" data-aos-delay="350" data-aos-duration="600">
-                    <h2><span>Academia</span></h2>
-                    <img src="assets/images/imagem-academia.jpg" alt="Imagem Academia">                    
-                    <button><a href="#">Registrar Atividade!</a></button>
+
+                <div class="manual-navigation">
+                    <label class="manual-btn" for="radio1"></label>
+                    <label class="manual-btn" for="radio2"></label>
+                    <label class="manual-btn" for="radio3"></label>
                 </div>
             </div>
         </div>
 
-        <div class="container-feedbacks">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur perspiciatis illum suscipit recusandae eveniet, velit blanditiis repellat assumenda at doloribus id provident minus molestias? Veritatis corrupti quas nemo nulla impedit.</p>
-        </div>
+
     </main>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script src="assets/js/script.js"></script>
 
 </body>
