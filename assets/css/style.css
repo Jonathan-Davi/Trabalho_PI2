@@ -37,7 +37,7 @@ span{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    color: #f2f2f2;
+    color: #000;
     background-color: #fedc81;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: fixed;
@@ -59,7 +59,7 @@ span{
 
 .nav-links a{
     text-decoration: none;
-    color: #f2f2f2;
+    color: #000;
     display: flex;
     font-weight: bold;
 }
@@ -76,6 +76,7 @@ span{
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    border: 1px solid #000;
 }
 
 .header-container{
@@ -225,7 +226,6 @@ span{
     margin: 2rem 4rem;
     justify-content: space-between;
     align-items: center;
-    height: 500px;
 }
 
 .atividades-esquerda{
@@ -369,4 +369,68 @@ span{
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background-color: #f77200;
+}
+
+.container-feedbacks{
+    margin: 3rem 4rem;
+    text-align: center;
+    height: 500px;
+}
+
+.container-feedbacks p{
+    font-size: 26px;
+    font-weight: bold;
+    padding: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container-feed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.feed-icone{
+    background-color: #fedc81;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.feed-icone img{
+    width: 25px;
+}
+
+textarea{
+    width: 600px;
+    height: 30px;
+    border: none;   
+    resize: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    padding: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+textarea:focus{
+    border-bottom: 2px solid #f77200;
+}
+
+.feed-btn button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fedc81;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-weight: bold;
 }
