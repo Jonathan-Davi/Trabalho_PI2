@@ -445,6 +445,14 @@ textarea:focus{
     box-shadow: 0px -10px 25px 0px rgba(0,0,0,0.29);
 }
 
-.footer-direitos{
-    bottom: 0;
+.container-footer p{
+    font-size: 14px;
+}
+
+.container-footer ul > li{
+    font-size: 12px;
+}
+
+address{
+    font-size: 12px;
 }
