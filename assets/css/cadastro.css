@@ -9,6 +9,7 @@
 
 span{
     color: #f77200;
+    font-weight: 700;
 }
 
 .container-main{
@@ -17,11 +18,11 @@ span{
     align-items: center;
     width: 100%;
     height: 100dvh;
-    background: linear-gradient(to left, #fedc81 60%, #ffffff 40%);
+    background: linear-gradient(to right, #fedc81 60%, #ffffff 40%);
 }
 
-.container-main-login{
-    width: 400px;
+.container-main-cadastro{
+    width: 450px;
     height: 600px;
     background-color: #fedc81;
     display: flex;
@@ -32,18 +33,21 @@ span{
     margin-right: 100px;
 }
 
-.container-main-login-titulo{
+.container-main-txt p{
+    font-size: 18px;
+}
+
+.container-main-cadastro-titulo{
     margin-bottom: 30px;
 }
 
-.container-main-login-titulo h3{
+.container-main-cadastro-titulo h3{
     font-weight: 350;
 }
 
 .container-imagem img{
     width: 600px;
     border-radius: 50px;
-    margin-right: 70px;
 }
 
 .container-main-login-btn button{
@@ -51,15 +55,12 @@ span{
     padding: 0.5rem 1rem;
     background-color: #ffffff;
     border-radius: 15px;
-    width: 100px;
+    width: 200px;
+    transition: 0.8s;
 }
 
-.container-main-login-forget p{
-    margin: 0;
-    font-size: 14px;
-}
-
-.container-main-login-forget a{
-    text-decoration: none;
-    color: #f77200;
+.container-main-login-btn button:hover{
+    transform: scale(1.1);
+    color: #fedc81;
+    background-color: #f77200;
 }
