@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto';
 }
 
 html{
@@ -15,4 +15,201 @@ html{
 body{
     max-width: 100%;
     height: 100vh;
+}
+
+span{
+    color: #f77200;
+}
+
+main{
+    margin-top: 130px;
+}
+
+p{
+    margin: 0 !important;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #000;
+    background-color: #fedc81;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-links{
+    text-align: center;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    font-weight: bold;
+}
+
+.nav-conta img{
+    width: 20px;
+}
+
+.div-nav-icone{
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.nav-logo h1{
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.container-main-metas{
+    margin: 3rem;
+}
+
+.container-geral-titulo{
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 4rem;
+}
+
+.cor{
+    color: #ffc523;
+}
+
+.container-geral-titulo p{
+    margin: 0;
+}
+
+.container-metas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-geral-imagem img{
+    width: 500px;
+}
+
+.container-geral-txt{
+    width: 500px;
+}
+
+.container-geral-txt p{
+    font-family: 'Poppins';
+}
+
+.definir-metas-titulo{
+    font-size: 18px;
+    margin: 1rem 0rem 0rem 6rem;
+}
+
+.geral-form{
+    margin: 2rem 0rem 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.geral-form label{
+    font-family: 'Poppins';
+}
+
+.btn{
+    margin: 0.5rem 5.2rem;
+}
+
+.btn button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #fedc81;
+    border-radius: 10px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn button:hover{
+    transform: scale(1.1);
+}
+
+.container-main-atividades{
+    margin: 3rem;
+}
+
+.container-atividades{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.grafico-geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.grafico-titulo{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.graficos{
+    margin: 3rem;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer{
+    background-color: #fedc81;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px -10px 25px 0px rgba(0,0,0,0.29);
+}
+
+.container-footer p{
+    font-size: 14px;
+}
+
+.container-footer ul > li{
+    font-size: 12px;
+}
+
+address{
+    font-size: 12px;
+    margin: 0 !important;
+}
+
+.footer-logo h2{
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    color: #000;
 }
