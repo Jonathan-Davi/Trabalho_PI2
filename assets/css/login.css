@@ -11,6 +11,12 @@ span{
     color: #f77200;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .container-main{
     display: flex;
     justify-content: space-around;

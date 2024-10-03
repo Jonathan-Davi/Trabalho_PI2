@@ -33,6 +33,12 @@ span{
     margin-right: 100px;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .container-main-txt p{
     font-size: 18px;
 }
