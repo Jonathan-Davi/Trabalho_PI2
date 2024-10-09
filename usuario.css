@@ -88,6 +88,11 @@
     margin-bottom: 10px;
 }
 
+.direita-complete input:focus{
+    outline: none;
+    border: none;
+}
+
 .direita-complete button{
     padding: 0.3rem 0.8rem;
     margin-top: 10px;
