@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/atividade.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/atividade.css">
 
     <title>FitTrack Atividade</title>
 </head>
@@ -30,7 +29,7 @@
                 </div>
                 <div class="nav-conta">
                     <div class="div-nav-icone">
-                        <img src="assets/images/perfil-de-usuario.png" alt="Icone Perfil">
+                        <img src="images/perfil-de-usuario.png" alt="Icone Perfil">
                     </div>
                 </div>
             </div>
@@ -48,7 +47,7 @@
                     <p>Estipular metas para atividades físicas é essencial para alcançar resultados e manter a motivação. Metas claras dão direção, ajudando a transformar grandes objetivos em pequenas conquistas diárias. Além disso, elas aumentam o foco, a disciplina e o comprometimento, permitindo que você acompanhe seu progresso e celebre cada avanço, por menor que seja. Defina suas metas, seja persistente, e verá como cada esforço o aproxima de uma versão mais saudável e forte de si mesmo!</p>
                 </div>
                 <div class="container-geral-imagem">
-                    <img src="assets/images/undraw_Target_re_fi8j.png" alt="Imagem Metas">
+                    <img src="images/undraw_Target_re_fi8j.png" alt="Imagem Metas">
                 </div>
             </div>
 
@@ -114,7 +113,7 @@
 
             <div class="container-atividades">
                 <div class="container-geral-imagem">
-                    <img src="assets/images/undraw_bike_ride_7xit.png" alt="Imagem Atividades">
+                    <img src="images/undraw_bike_ride_7xit.png" alt="Imagem Atividades">
                 </div>
                 <div class="container-geral-txt">
                     <p>Inicie sua jornada fitness com atividades que realmente fazem a diferença! Cada exercício é uma oportunidade de superar seus limites e conquistar suas metas. Experimente novos desafios, mantenha-se motivado e registre seu progresso. Lembre-se: a consistência é a chave para o sucesso! Ao se comprometer com essas atividades, você estará um passo mais perto de uma versão mais saudável e forte de si mesmo. Vamos juntos transformar esforço em conquistas!</p>
@@ -206,7 +205,7 @@
         </div>
     </footer>
 
-    <script src="assets/js/script.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>

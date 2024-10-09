@@ -91,6 +91,8 @@
 .direita-complete input:focus{
     outline: none;
     border: none;
+    border-bottom: 2px solid #f77200;
+    transition: 0.3s;
 }
 
 .direita-complete button{

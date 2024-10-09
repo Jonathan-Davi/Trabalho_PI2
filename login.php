@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <title>FitTrack Login</title>
@@ -14,7 +14,7 @@
     <main>
         <div class="container-main">
             <div class="container-imagem">
-                <img src="assets/images/undraw_Access_account_re_8spm.png" alt="Imagem Login">
+                <img src="images/undraw_Access_account_re_8spm.png" alt="Imagem Login">
             </div>
             <div class="container-main-login">
                 <div class="container-main-login-titulo">

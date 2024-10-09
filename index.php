@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <title>FitTrack Home</title>
 </head>
 
 <body>
+
+    <script>
+        function abrirMenu() {
+            document.getElementById("menu-lateral").style.width = "200px"; 
+        }
+  
+        function fecharMenu() {
+            document.getElementById("menu-lateral").style.width = "0";
+        }
+    </script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -32,7 +42,20 @@
                 </div>
                 <div class="nav-conta">
                     <div class="div-nav-icone">
-                        <img src="assets/images/perfil-de-usuario.png" alt="Icone Perfil">
+                        <img src="images/perfil-de-usuario.png" alt="Icone Perfil" class="perfil" onclick="abrirMenu()">
+                    </div>
+                    <div id="menu-lateral" class="menuLateral">
+                        <div class="menu-geral">
+                            <div class="menu-icone">
+                                <img src="images/perfil-de-usuario.png" alt="Icone Perfil" class="fechar" onclick="fecharMenu()">
+                            </div>
+                            <a href="index.php">Home</a>
+                            <a href="atividade.php">Atividades</a>
+                            <div class="menu-baixo">
+                                <a href="usuario.php">Perfil</a>
+                                <a href="#">Sair</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -160,7 +183,7 @@
             <p><span>Feedbacks</span></p>
             <div class="container-feed">
                 <div class="feed-icone">
-                    <img src="assets/images/perfil-de-usuario.png" alt="Perfil">
+                    <img src="images/perfil-de-usuario.png" alt="Perfil">
                 </div>
                 <div class="feed-comentario">
                     <textarea name="comentario" id="comentario" placeholder="O seu comentário faz toda a diferença!!"></textarea>
@@ -197,7 +220,7 @@
     </footer>
 
     
-    <script src="assets/js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
