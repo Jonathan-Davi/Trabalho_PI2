@@ -14,7 +14,7 @@
 
         <div class="container-main">
             <div class="main-foto">
-                <img src="perfil-de-usuario.png" alt="Foto Perfil">
+                <img src="images/perfil-de-usuario.png" alt="Foto Perfil">
             </div>
             <div class="main-geral">
                 <div class="main-arquivo">

@@ -15,7 +15,7 @@
 
     <script>
         function abrirMenu() {
-            document.getElementById("menu-lateral").style.width = "200px"; 
+            document.getElementById("menu-lateral").style.width = "210px"; 
         }
   
         function fecharMenu() {
@@ -45,14 +45,21 @@
                         <img src="images/perfil-de-usuario.png" alt="Icone Perfil" class="perfil" onclick="abrirMenu()">
                     </div>
                     <div id="menu-lateral" class="menuLateral">
-                        <div class="menu-geral">
+                        <div class="flex-icone">
                             <div class="menu-icone">
                                 <img src="images/perfil-de-usuario.png" alt="Icone Perfil" class="fechar" onclick="fecharMenu()">
                             </div>
-                            <a href="index.php">Home</a>
-                            <a href="atividade.php">Atividades</a>
+                        </div>
+                        <div class="menu-geral">
+                            <a href="index.php">Perfil</a>
+                            <div class="menu-meio">
+                                <a href="atividade.php">Planos e preços</a>
+                                <a href="usuario.php">Histórico de atividades</a>
+                            </div>
                             <div class="menu-baixo">
-                                <a href="usuario.php">Perfil</a>
+                                <a href="#">Sugerir melhoria</a>
+                                <a href="">Indicar amigos</a>
+                                <a href="">Politica de privacidade</a>
                                 <a href="#">Sair</a>
                             </div>
                         </div>
@@ -77,7 +84,7 @@
     <main>
         <div class="container-sobre" id="sobre">
             <div class="imagem-sobre" data-aos="fade-up" data-aos-delay="150" data-aos-duration="600">
-                <img src="assets/images/undraw_Team_spirit_re_yl1v.png" alt="Imagem Sobre">
+                <img src="images/undraw_Team_spirit_re_yl1v.png" alt="Imagem Sobre">
             </div>
             <div class="geral-texto">
                 <div class="texto-titulo" data-aos="fade-right" data-aos-delay="150" data-aos-duration="860">
@@ -98,7 +105,7 @@
             <div class="func-cards">
                 <div class="func" data-aos="fade-right" data-aos-delay="150" data-aos-duration="600">
                     <div class="func-icone">
-                        <img src="assets/images/conquistar.png" alt="Icone de Conquista">
+                        <img src="images/conquistar.png" alt="Icone de Conquista">
                     </div>
                     <div class="func-texto">
                         <div class="func-texto-titulo">
@@ -111,7 +118,7 @@
                 </div>
                 <div class="func" data-aos="fade-right" data-aos-delay="250" data-aos-duration="600">
                     <div class="func-icone">
-                        <img src="assets/images/trofeu.png" alt="Icone Trofeu">
+                        <img src="images/trofeu.png" alt="Icone Trofeu">
                     </div>
                     <div class="func-texto">
                         <div class="func-texto-titulo">
@@ -124,7 +131,7 @@
                 </div>
                 <div class="func" data-aos="fade-right" data-aos-delay="350" data-aos-duration="600">
                     <div class="func-icone">
-                        <img src="assets/images/prancheta.png" alt="Icone Prancheta">
+                        <img src="images/prancheta.png" alt="Icone Prancheta">
                     </div>
                     <div class="func-texto">
                         <div class="func-texto-titulo">
@@ -155,13 +162,13 @@
                     <input type="radio" name="radiobtn" id="radio3">
 
                     <div class="slide first">
-                        <img src="assets/images/imagem-corrida-de-rua.jpg" alt="Imagem Corrida">
+                        <img src="images/imagem-corrida-de-rua.jpg" alt="Imagem Corrida">
                     </div>
                     <div class="slide">
-                        <img src="assets/images/imagem-ciclismo.jpg" alt="Imagem Ciclismo">
+                        <img src="images/imagem-ciclismo.jpg" alt="Imagem Ciclismo">
                     </div>
                     <div class="slide">
-                        <img src="assets/images/imagem-academia.jpg" alt="Imagem Academia">
+                        <img src="images/imagem-academia.jpg" alt="Imagem Academia">
                     </div>
 
                     <div class="navigation-auto">

@@ -81,7 +81,7 @@ span{
 
 .menuLateral{
     height: 100dvh;
-    width: 0;
+    width: 0px;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -95,38 +95,40 @@ span{
 .menuLateral a{
     padding: 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     color: #000;
     display: block;
     transition: 0.3s;
+    font-family: 'Poppins';
 }
 
 .menuLateral a:hover{
-    color: #f77200;
+    color: #f2f2f2;
+    background-color: #f77200;
+    border: 1px solid #f77200;
 }
 
 .menu-geral{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.menu-baixo{
-    margin-top: 450px;
 }
 
 .menu-icone{
     display: flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0 0 5px black;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     cursor: pointer;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-icone:hover{
@@ -134,6 +136,14 @@ span{
     transition: 0.5s;
     box-shadow: 0 0 5px #000;
 }
+
+/* .menu-baixo{
+    margin-top: 143px;
+}
+
+.menu-meio{
+    margin-top: 150px; 
+} */
 
 .header-container{
     display: flex;
@@ -436,7 +446,7 @@ span{
     font-size: 26px;
     font-weight: bold;
     padding: 2rem;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container-feed{
