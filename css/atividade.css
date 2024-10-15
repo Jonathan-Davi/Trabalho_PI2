@@ -25,10 +25,6 @@ main{
     margin-top: 130px;
 }
 
-p{
-    margin: 0 !important;
-}
-
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -75,6 +71,64 @@ p{
     height: 30px;
     border-radius: 50%;
     border: 1px solid #000;
+}
+
+.menuLateral{
+    height: 100dvh;
+    width: 0px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+.menuLateral a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poppins';
+}
+
+.menuLateral a:hover{
+    color: #f2f2f2;
+    background-color: #f77200;
+    border: 1px solid #f77200;
+}
+
+.menu-geral{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-icone{
+    display: flex;
+    box-shadow: 0 0 5px black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icone:hover{
+    background-color: #fedc81;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #000;
 }
 
 .nav-logo h1{

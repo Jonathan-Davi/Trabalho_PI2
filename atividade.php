@@ -10,7 +10,18 @@
 </head>
 <body>
 
+    <script>
+        function abrirMenu() {
+            document.getElementById("menu-lateral").style.width = "210px"; 
+        }
+  
+        function fecharMenu() {
+            document.getElementById("menu-lateral").style.width = "0";
+        }
+    </script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <header>
         <nav>
@@ -30,6 +41,26 @@
                 <div class="nav-conta">
                     <div class="div-nav-icone">
                         <img src="images/perfil-de-usuario.png" alt="Icone Perfil">
+                    </div>
+                    <div id="menu-lateral" class="menuLateral">
+                        <div class="flex-icone">
+                            <div class="menu-icone">
+                                <img src="images/perfil-de-usuario.png" alt="Icone Perfil" class="fechar" onclick="fecharMenu()">
+                            </div>
+                        </div>
+                        <div class="menu-geral">
+                            <a href="index.php">Perfil</a>
+                            <div class="menu-meio">
+                                <a href="atividade.php">Planos e preços</a>
+                                <a href="usuario.php">Histórico de atividades</a>
+                            </div>
+                            <div class="menu-baixo">
+                                <a href="#">Sugerir melhoria</a>
+                                <a href="">Indicar amigos</a>
+                                <a href="">Politica de privacidade</a>
+                                <a href="#">Sair</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
