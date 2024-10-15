@@ -22,7 +22,6 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
     <header>
         <nav>
             <div class="nav-container">
@@ -40,7 +39,7 @@
                 </div>
                 <div class="nav-conta">
                     <div class="div-nav-icone">
-                        <img src="images/perfil-de-usuario.png" alt="Icone Perfil">
+                        <img src="images/perfil-de-usuario.png" alt="Icone Perfil" class="perfil" onclick="abrirMenu()">
                     </div>
                     <div id="menu-lateral" class="menuLateral">
                         <div class="flex-icone">
